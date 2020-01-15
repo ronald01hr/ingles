@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon&display=swap');
+*{ margin: 0;
+    padding: 0;
+
+}
+
+.titu{
+    font-size: 25px;
+    color: #fec503;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+.img-principal{
+   
+ 
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/foto5.jpg);
+height: 657px;
+width: 100%;
+ 
+
+  
+}
+
+
+
+
+.fondo-principal{
+    position: absolute;
+    background-color: blue;
+    z-index: 211111
+    ;
+}
+
+
+
+
+/**navegador fonddo**/
+
+
+
+
+
+
+
+
+
+.centrar{
+    position: relative;
+    top:300px;
+    
+}
+
+.centrar .t1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.centrar .t2{
+    margin: 0 auto;
+    width: 700px;
+    color: white;
+    font-size: 15px;
+    font-weight: 350;
+    
+}
+
+
+@media (max-width: 720px) {
+    .fondo-nav{
+
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .img-principal{
+        background-size: cover;
+    }
+
+    .centrar .t2{
+      
+        width: 100%;
+    
+        
+    }
+    
+  }
+
+
+.seccion{
+
+    margin-top: 100px;
+
+}
+
+.contenido-parrafo h3{
+  color: rgb(13, 99, 133);
+  font-family: 'Kaushan Script', cursive;
+}
+
+
+.contenido-parrafo p{
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: 'Coming Soon', cursive;
+    font-weight: 700;
+}
+
+.titulo-about{
+    font-family: 'Coming Soon', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: solid 2px;
+}
+
+
+
+
+/*Contacto*/
+
+.imagen-contacto{
+    background-image:    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+  
+    url(../img/foto6.jpg);
+height: 500px;
+width: 100%;
+background-size: cover;
+margin-bottom: 200px;
+
+ 
+
+}
+
+.contenido-parrafo2{
+    margin: 0 auto;
+    margin-top: 30px;
+    top: 100px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: 'Coming Soon', cursive;
+    font-weight: 700;
+}
+
+.contenido-formulario{
+margin: 0 auto;
+top: 280px;
+}
+
+
+@media (max-width: 720px) {
+    .contenido-formulario {
+     top: 130px;
+    }
+  }
+
+
+  .card img{
+      width: 200px;
+      height: 200px;
+      text-align: center;
+  }
+
