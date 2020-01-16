@@ -49,22 +49,24 @@ body{
 }
 
 .medio {
-    background: linear-gradient(35deg, #000000de, #9a333361);
+    background: linear-gradient(35deg, #b3bb90de, #9a333361);
+    border-radius: 50px;
+    border-style: double;
 }
-
+/*
 .col-lg-3 {
     background: aliceblue;
     border-radius: 50px;
     border-style: double;
     
 }
-/*
+*/
+
 .ult {
-    background: aliceblue;
-    margin-right: -10px;
+    background: linear-gradient(40deg, #4455d0de, #9a333361);
     
 }
-*/
+
 .img5{
     margin: 10px;
     width: 40%;
